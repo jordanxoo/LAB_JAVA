@@ -1,0 +1,54 @@
+<list>
+  <lab2ONP.Equation>
+    <equation>2 3 + 6 2 - 2 ^ * =</equation>
+    <result>80</result>
+  </lab2ONP.Equation>
+  <lab2ONP.Equation>
+    <equation>7 1 + 4 2 - 2 ^ * =</equation>
+    <result>32</result>
+  </lab2ONP.Equation>
+  <lab2ONP.Equation>
+    <equation>8 1 + 4 2 - 2 ^ / =</equation>
+    <result>2.25</result>
+  </lab2ONP.Equation>
+  <lab2ONP.Equation>
+    <equation>2 3 + 2 3 - * 8 + =</equation>
+    <result>3</result>
+  </lab2ONP.Equation>
+  <lab2ONP.Equation>
+    <equation>22 3 + 2 34 - / 3 * 8 + =</equation>
+    <result>5.65625</result>
+  </lab2ONP.Equation>
+  <lab2ONP.Equation>
+    <equation>Błędne równanie: brak znaku &apos;=&apos;</equation>
+    <result>Błędne równanie: brak znaku &apos;=&apos;</result>
+  </lab2ONP.Equation>
+  <lab2ONP.Equation>
+    <equation>Błędne równanie: Nadmiarowy nawias zamykający</equation>
+    <result>Błędne równanie: brak znaku &apos;=&apos;</result>
+  </lab2ONP.Equation>
+  <lab2ONP.Equation>
+    <equation>5 ! 9 √ + =</equation>
+    <result>123</result>
+  </lab2ONP.Equation>
+  <lab2ONP.Equation>
+    <equation>2 3 ^ 2 ^ =</equation>
+    <result>64</result>
+  </lab2ONP.Equation>
+  <lab2ONP.Equation>
+    <equation>10 0 / =</equation>
+    <result>Błąd: Dzielenie przez zero</result>
+  </lab2ONP.Equation>
+  <lab2ONP.Equation>
+    <equation>10 0 % =</equation>
+    <result>Błąd: Reszta z dzielenia przez 0</result>
+  </lab2ONP.Equation>
+  <lab2ONP.Equation>
+    <equation>4 - √ =</equation>
+    <result>Błąd: Niewystarczająca liczba operandów</result>
+  </lab2ONP.Equation>
+  <lab2ONP.Equation>
+    <equation>5.5 ! =</equation>
+    <result>Błąd: Silnia wymaga liczby całkowitej nieujemnej</result>
+  </lab2ONP.Equation>
+</list>
