@@ -27,11 +27,13 @@ public class lab6TaskManager {
                 System.out.println("Zadanie " + taskName + " zostalo anulowane.");
                 return;
             }
-            try{
-                T result = get();
-                System.out.println("Zadanie " + taskName + " zakonczone, wynik: " + result);
-            }catch (InterruptedException | ExecutionException e) {
-                System.out.println("Blad w zadaniu " + taskName + ": " + e.getMessage());
+            if(isDone()) {
+                try {
+                    T result = get();
+                    System.out.println("Zadanie " + taskName + " zakonczone, wynik: " + result);
+                } catch (InterruptedException | ExecutionException e) {
+                    System.out.println("Blad w zadaniu " + taskName + ": " + e.getMessage());
+                }
             }
         }
 
