@@ -1,0 +1,90 @@
+Jakie są podstawowe zasady programowania obiektowego?
+Enkapsulacja
+Dziedziczenie
+Polimorfizm
+Abstrakcja
+1,2,3,4
+Czym jest dziedziczenie w Javie i jak jest implementowane?
+Umożliwia tworzenie nowych klas na bazie istniejących
+Używa słowa kluczowego extends
+Umożliwia wielokrotne dziedziczenie
+Umożliwia przesłanianie metod klasy bazowej
+1,2,4
+Opisz różnice między interfejsem a klasą abstrakcyjną w Javie.
+Interfejs może zawierać tylko deklaracje metod
+Klasa może implementować wiele interfejsów, ale dziedziczyć tylko po jednej klasie
+Interfejs nie może mieć pól instancji
+Wszystkie powyższe są poprawne
+1,2,3
+Czym jest polimorfizm i jakie są jego rodzaje?
+Polimorfizm statyczny (przeciążanie metod)
+Polimorfizm dynamiczny (przesłanianie metod)
+Polimorfizm parametryczny (generyki)
+Polimorfizm wielopostaciowy
+1,2,3
+Co to jest garbage collector i jak działa w JVM?
+Automatycznie zarządza pamięcią
+Usuwa nieużywane obiekty
+Działa w osobnym wątku
+Może być wywołany jawnie przez System.gc()
+1,2,3,4
+Wyjaśnij różnice między Java ArrayList a LinkedList.
+ArrayList ma szybszy dostęp do elementów przez indeks
+LinkedList ma szybsze wstawianie i usuwanie elementów
+ArrayList zajmuje mniej pamięci
+LinkedList implementuje interfejs Queue
+1,2,4
+Czym są wątki w Javie i jak można je tworzyć?
+Przez implementację interfejsu Runnable
+Przez dziedziczenie po klasie Thread
+Przez wykorzystanie ExecutorService
+Przez implementację interfejsu Callable
+1,2,3,4
+Wyjaśnij mechanizm obsługi wyjątków w Javie.
+Try-catch-finally
+Throw i throws
+Wyjątki checked i unchecked
+Exception i RuntimeException
+1,2,3,4
+Co to jest serializacja i do czego służy?
+Konwersja obiektów do postaci binarnej
+Przechowywanie stanu obiektów
+Przesyłanie obiektów przez sieć
+Implementowana przez interfejs Serializable
+1,2,3,4
+Wyjaśnij różnice między SOAP a REST API.
+SOAP używa głównie XML, REST może używać JSON
+SOAP jest protokołem, REST stylem architektury
+REST jest bardziej luźny i elastyczny
+SOAP ma wbudowane mechanizmy bezpieczeństwa
+1,2,3,4
+Jakie znasz wzorce projektowe i kiedy warto ich używać?
+Singleton - gdy potrzebna jest tylko jedna instancja klasy
+Factory - gdy chcemy ukryć logikę tworzenia obiektów
+Observer - gdy obiekty powinny być powiadamiane o zmianach
+MVC - gdy chcemy oddzielić dane od prezentacji
+1,2,3,4
+Opisz działanie protokołu HTTP.
+Jest bezstanowy
+Opiera się na parach żądanie-odpowiedź
+Ma metody GET, POST, PUT, DELETE
+Wykorzystuje port 80 domyślnie
+1,2,3,4
+Czym są strumienie (streams) w Javie 8 i jak ich używać?
+Służą do przetwarzania sekwencji elementów
+Wspierają operacje funkcyjne (map, filter, reduce)
+Mogą być równoległe (parallel)
+Są leniwe - wykonują operacje tylko gdy potrzeba
+1,2,3,4
+Wyjaśnij różnice między TCP a UDP.
+TCP gwarantuje dostarczenie pakietów
+UDP jest szybszy, ale nie gwarantuje dostarczenia
+TCP jest połączeniowy, UDP bezpołączeniowy
+TCP ma mechanizm kontroli przepływu
+1,2,3,4
+Jakie są główne cechy języka Java?
+Przenośność (WORA - Write Once Run Anywhere)
+Zorientowanie obiektowe
+Automatyczne zarządzanie pamięcią
+Silne typowanie
+1,2,3,4

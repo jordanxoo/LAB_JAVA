@@ -1,0 +1,3 @@
+# Konfiguracja klienta kolokwium
+server_ip=localhost
+port=8888
